@@ -1,0 +1,96 @@
+.navbar {
+    margin: 40px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 0 40px;
+    line-height: 25px;
+    font-family: var(--titles-subtitles);
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    color: #DFDFEC;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: rgba(158, 77, 61, 1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    /* Ajuste a largura conforme necessário */
+    height: 100vh;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.navbar-menu.open {
+    transform: translateX(0);
+}
+
+.navbar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-menu a {
+    padding: 15px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.navbar-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    /* Garante que o botão esteja sobreposto */
+}
+
+.navbar-button-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    /* Ajuste conforme necessário */
+    right: 20px;
+    /* Ajuste conforme necessário */
+    z-index: 1002;
+    /* Garante que o botão esteja sobreposto ao menu */
+}
