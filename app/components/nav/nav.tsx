@@ -27,11 +27,9 @@ function Nav() {
             </div>
             <div className={`navbar-overlay ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(false)}></div>
             <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
-                <a href='#'>Home</a>
-                <a href='#'>Catálogo</a>
+                <a href='#'>Produtos</a>
                 <a href='#'>Sobre nós</a>
                 <a href='#'>Suporte</a>
-                <a href='#'>Contato</a>
             </div>
             {menuOpen && (
                 <button onClick={() => setMenuOpen(false)} className='navbar-button-close'>
