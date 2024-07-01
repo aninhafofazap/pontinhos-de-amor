@@ -7,9 +7,15 @@ import { Close } from "../icons/close";
 
 import "./nav.css";
 import Link from "next/link";
+import { useBlock } from "@/src/context/blockProvider";
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { setBlock } = useBlock();
+  function blockNav() {
+    setMenuOpen(!menuOpen);
+    setBlock(!menuOpen);
+  }
 
   return (
     <nav className="navbar">
@@ -19,10 +25,7 @@ function Nav() {
           <h1 className="navbar-title">Pontynhos de Amor</h1>
         </div>
         <div className="navbar-menu-icon">
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="navbar-button"
-          >
+          <button onClick={() => blockNav()} className="navbar-button">
             {!menuOpen && <Menu className="icon" />}
           </button>
         </div>
@@ -32,15 +35,12 @@ function Nav() {
         onClick={() => setMenuOpen(false)}
       ></div>
       <div className={`navbar-menu ${menuOpen ? "open" : ""}`}>
-        <Link href="/products">Produtos</Link>
+        <Link href="/">Home</Link>
         <Link href="/about-us">Sobre nós</Link>
         <Link href="/support">Suporte</Link>
       </div>
       {menuOpen && (
-        <button
-          onClick={() => setMenuOpen(false)}
-          className="navbar-button-close"
-        >
+        <button onClick={() => blockNav()} className="navbar-button-close">
           <Close className="icon" />
         </button>
       )}

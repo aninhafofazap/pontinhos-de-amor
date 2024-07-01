@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--titles-subtitles",
-});
-const openSans = Open_Sans({ subsets: ["latin"], variable: "--main" });
+import { BlockProvider } from "../context/blockProvider";
+import { Templates } from "../components/templates";
 
 export const metadata: Metadata = {
   title: "Pontynhos de Amor",
@@ -34,9 +30,9 @@ export default function RootLayout({
         />
       </head>
 
-      <body className={`${openSans.variable} ${montserrat.variable}`}>
-        {children}
-      </body>
+      <BlockProvider>
+        <Templates>{children}</Templates>
+      </BlockProvider>
     </html>
   );
 }

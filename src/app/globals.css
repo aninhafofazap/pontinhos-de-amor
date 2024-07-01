@@ -10,7 +10,13 @@
   box-sizing: border-box;
 }
 
+.hidden-block {
+  overflow: hidden;
+}
 
+.visible-block {
+  overflow: visible;
+}
 
 body {
   background-color: #9E4D3D;
