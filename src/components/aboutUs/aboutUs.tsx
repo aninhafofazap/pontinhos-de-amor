@@ -17,7 +17,7 @@ function AboutUs() {
       <section className="section-container">
         <div className="section-div">
           <h2 className="section-title">
-            A Magia por Trás dos Pontynhos de Amor:O Processo de Criação
+            A Magia por Trás dos Pontynhos de Amor: O Processo de Criação
           </h2>
           <p className="section-description">
             Uma viagem Artesanal: Da Seleção do Fio ao Toque Final

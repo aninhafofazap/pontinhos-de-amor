@@ -1,11 +1,13 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import {
   Dispatch,
   ReactNode,
   SetStateAction,
   createContext,
   useContext,
+  useEffect,
   useState,
 } from "react";
 
@@ -25,6 +27,14 @@ export const BlockContext = createContext<IBlockDefaultContext>(
 export const BlockProvider = ({ children }: IBlockContext) => {
   const [block, setBlock] = useState(false);
 
+  const path = usePathname();
+  console.log(path, "teta cabeluda");
+
+  useEffect(() => {
+    if (path) {
+      setBlock(false);
+    }
+  }, [path]);
   return (
     <BlockContext.Provider value={{ block, setBlock }}>
       {children}

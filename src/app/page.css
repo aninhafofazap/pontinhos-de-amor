@@ -1,0 +1,104 @@
+.products {
+    background-color: #FFFFFF;
+    ;
+}
+
+.carousel-content {
+    width: 375px;
+    height: 240px;
+    background-color: black;
+}
+
+.carousel-content h1 {
+    color: white;
+    text-align: center;
+}
+
+.section-category {}
+
+
+.subtitle-category {
+    color: #121212;
+    font-family: var(--titles-subtitles);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 8px;
+}
+
+.col-category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bags-category {
+    width: 165px;
+    height: 240px;
+    background-color: red;
+    margin: 10px;
+    position: relative;
+}
+
+.description-category {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background: white;
+    color: black;
+}
+
+.best-sellers {}
+
+.subtitle-sellers {
+    color: #121212;
+    font-family: var(--titles-subtitles);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 95px;
+}
+
+.col-sellers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.best-sellers-bags {
+    margin: 10px;
+}
+
+.best-sellers-image {
+    width: 165px;
+    height: 240px;
+    background-color: #3498db;
+    position: relative;
+}
+
+.cart {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: white;
+}
+
+
+.best-selles-description {
+    font-size: 16px;
+    font-family: var(--titles-subtitles);
+    font-weight: 700;
+    color: #121212;
+}
+
+.best-selles-value {
+    font-size: 12px;
+    font-family: var(--titles-subtitles);
+    font-weight: 400;
+    color: #121212;
+}
+
+.best-selles-amount {
+    font-size: 12px;
+    font-family: var(--main);
+    font-weight: 500;
+    color: #121212;
+}
