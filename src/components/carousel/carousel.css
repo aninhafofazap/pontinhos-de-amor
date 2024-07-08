@@ -1,0 +1,5 @@
+.image-size {
+    width: 375px;
+    height: 240px;
+    object-fit: cover;
+}
