@@ -110,7 +110,7 @@ function AboutUs() {
           </div>
           <div className="div-button">
             <button>
-              <Link href="/products">Ver produtos</Link>
+              <Link href="/">Ver produtos</Link>
             </button>
             <img src="/images/bolsa-branca.png" />
           </div>
