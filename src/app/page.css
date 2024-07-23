@@ -7,8 +7,7 @@
   height: 240px;
 }
 
-.section-category {
-}
+.section-category {}
 
 .subtitle-category {
   color: #121212;
@@ -37,15 +36,15 @@
 }
 
 .description-category {
-  position: absolute;
-  top: 90%;
-  right: 50%;
-  transform: translate(50%, -50%);
-  color: white;
+  font-size: 16px;
+  font-family: var(--titles-subtitles);
+  font-weight: 700;
+  color: #121212;
+  display: flex;
+  justify-content: center;
 }
 
-.best-sellers {
-}
+.best-sellers {}
 
 .subtitle-sellers {
   color: #121212;

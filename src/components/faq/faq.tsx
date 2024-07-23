@@ -1,55 +1,53 @@
+"use client";
+
+import { useState } from "react";
 import "./faq.css";
 
-export default function Faqs() {
+const faqs = [
+  {
+    question: "O que são bolsas feitas à mão?",
+    answer:
+      "Bolsas feitas à mão são peças únicas e exclusivas, confeccionadas manualmente por artesãos habilidosos. Elas são conhecidas pela sua alta qualidade e atenção aos detalhes.",
+  },
+  {
+    question:
+      "Quais materiais são usados nas bolsas feitas à mão da Pontynhos de Amor?",
+    answer:
+      "Usamos uma variedade de materiais de alta qualidade com materiais sustentáveis para criar nossas bolsas.",
+  },
+  {
+    question: "As bolsas feitas à mão são duráveis?",
+    answer:
+      "Sim, as bolsas feitas à mão são extremamente duráveis devido à atenção meticulosa aos detalhes e ao uso de materiais de alta qualidade. Elas são projetadas para durar muitos anos.",
+  },
+  {
+    question: "Como posso cuidar da minha bolsa feita à mão?",
+    answer:
+      "Para cuidar da sua bolsa feita à mão, evite expô-la a condições extremas de umidade e calor. Limpe-a com um pano macio e seco e, para manchas específicas, siga as instruções de cuidado fornecidas com o produto.",
+  },
+];
+
+export default function FAQ() {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleFAQ = (index: any) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
-    <section className="faq-section">
-      <h1>Perguntas frequentes</h1>
-      <div>
-        <details>
-          <summary>O que são bolsas feitas à mão?</summary>
-          <div>
-            <p>
-              Bolsas feitas à mão são peças únicas e exclusivas, confeccionadas
-              manualmente por artesãos habilidosos. Elas são conhecidas pela sua
-              alta qualidade e atenção aos detalhes..
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary>
-            Quais materiais são usados nas bolsas feitas à mão da Pontynhos de
-            Amor?
-          </summary>
-          <div>
-            <p>
-              Usamos uma variedade de materiais de alta qualidade, incluindo
-              couro genuíno, tecidos artesanais, e materiais sustentáveis para
-              criar nossas bolsas.
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary>As bolsas feitas à mão são duráveis?</summary>
-          <div>
-            <p>
-              Sim, as bolsas feitas à mão são extremamente duráveis devido à
-              atenção meticulosa aos detalhes e ao uso de materiais de alta
-              qualidade. Elas são projetadas para durar muitos anos.
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary>Como posso cuidar da minha bolsa feita à mão?</summary>
-          <div>
-            <p>
-              Para cuidar da sua bolsa feita à mão, evite expô-la a condições
-              extremas de umidade e calor. Limpe-a com um pano macio e seco e,
-              para manchas específicas, siga as instruções de cuidado fornecidas
-              com o produto.
-            </p>
-          </div>
-        </details>
-      </div>
-    </section>
+    <div className="faq-container">
+      <h2 className="faq-title">Perguntas frequentes</h2>
+      {faqs.map((faq, index) => (
+        <div key={index} className="faq-item">
+          <button className="faq-button" onClick={() => toggleFAQ(index)}>
+            <span className="faq-question">{faq.question}</span>
+            <span className={`faq-icon ${openIndex === index ? "open" : ""}`}>
+              &#9650;
+            </span>
+          </button>
+          {openIndex === index && <div className="faq-panel">{faq.answer}</div>}
+        </div>
+      ))}
+    </div>
   );
 }

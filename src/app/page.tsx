@@ -18,9 +18,9 @@ export default function Page() {
             <SwiperCarousel />
           </div>
         </section>
-        {/* AQUI CONTEM AS INFORMAÇOES DA PARTE DAS CATEGORIAS DAS BOLSAS */}
+        {/* AQUI CONTEM AS INFORMAÇOES DA PARTE DAS CATEGORIAS/CATALOGO DAS BOLSAS */}
         <section className="categorys">
-          <h2 className="subtitle-category">Categorias</h2>
+          <h2 className="subtitle-category">Catálagos</h2>
           <div className="col-category">
             <div className="bags-category">
               <img
@@ -67,7 +67,6 @@ export default function Page() {
                 <p className="best-selles-description">Casual</p>
                 <div className="best-selles-bottom">
                   <p className="best-selles-value">R$129,99</p>
-                  <p className="best-selles-amount">Qtde: 10</p>
                 </div>
               </div>
             </div>
@@ -82,7 +81,6 @@ export default function Page() {
                 <p className="best-selles-description">Casual</p>
                 <div className="best-selles-bottom">
                   <p className="best-selles-value">R$129,99</p>
-                  <p className="best-selles-amount">Qtde: 10</p>
                 </div>
               </div>
             </div>
@@ -97,7 +95,6 @@ export default function Page() {
                 <p className="best-selles-description">Casual</p>
                 <div className="best-selles-bottom">
                   <p className="best-selles-value">R$129,99</p>
-                  <p className="best-selles-amount">Qtde: 10</p>
                 </div>
               </div>
             </div>
@@ -112,7 +109,6 @@ export default function Page() {
                 <p className="best-selles-description">Casual</p>
                 <div className="best-selles-bottom">
                   <p className="best-selles-value">R$129,99</p>
-                  <p className="best-selles-amount">Qtde: 10</p>
                 </div>
               </div>
             </div>

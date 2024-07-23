@@ -20,13 +20,15 @@ function Footer() {
         </div>
         <div className="sections">
           <h3>Bolsas</h3>
-          <p>Produtos</p>
+          <p>
+            <a href="/">Produtos</a>
+          </p>
         </div>
         <div className="sections">
           <h3>Suporte</h3>
-          <p>FAQ</p>
-          <p>Help center</p>
-          <p>Sitemap</p>
+          <p>
+            <a href="/faq">FAQ</a>
+          </p>
         </div>
         <div className="sections">
           <h3>Endereço</h3>
