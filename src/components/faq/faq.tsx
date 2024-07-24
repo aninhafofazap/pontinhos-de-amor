@@ -25,6 +25,11 @@ const faqs = [
     answer:
       "Para cuidar da sua bolsa feita à mão, evite expô-la a condições extremas de umidade e calor. Limpe-a com um pano macio e seco e, para manchas específicas, siga as instruções de cuidado fornecidas com o produto.",
   },
+  {
+    question: "Quais são as formas de pagamento disponíveis?",
+    answer:
+      "Na Pontynhos de Amor, oferecemos diversas opções de pagamento para sua conveniência. Você pode realizar o pagamento via PIX, boletos bancários ou cartões de crédito. Escolha a opção que melhor se adapta às suas necessidades e aproveite suas compras com facilidade e segurança.",
+  },
 ];
 
 export default function FAQ() {
