@@ -44,7 +44,7 @@ function Nav() {
       <div className={`navbar-menu ${menuOpen ? "open" : ""}`}>
         <Link href="/">Home</Link>
         <Link href="/about-us">Sobre nós</Link>
-        <Link href="/faq">FAQ's</Link>
+        <Link href="/faq">FAQs</Link>
       </div>
       {menuOpen && (
         <button onClick={() => blockNav()} className="navbar-button-close">
