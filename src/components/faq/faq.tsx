@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { RiArrowDownSFill } from "react-icons/ri";
+
 import "./faq.css";
 
 const faqs = [
@@ -47,7 +49,7 @@ export default function FAQ() {
           <button className="faq-button" onClick={() => toggleFAQ(index)}>
             <span className="faq-question">{faq.question}</span>
             <span className={`faq-icon ${openIndex === index ? "open" : ""}`}>
-              &#9650;
+              <RiArrowDownSFill size={20} />
             </span>
           </button>
           {openIndex === index && <div className="faq-panel">{faq.answer}</div>}

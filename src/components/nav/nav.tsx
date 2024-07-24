@@ -8,6 +8,7 @@ import { Close } from "../icons/close";
 import "./nav.css";
 import Link from "next/link";
 import { useBlock } from "@/src/context/blockProvider";
+import Image from "next/image";
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +22,13 @@ function Nav() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo-title">
-          <img className="navbar-logo" src="/images/logo.svg" alt="Logo" />
+          <Image
+            className="navbar-logo"
+            src="/images/logo.svg"
+            alt="Logo"
+            width={22}
+            height={22}
+          />
           <h1 className="navbar-title">Pontynhos de Amor</h1>
         </div>
         <div className="navbar-menu-icon">
