@@ -8,12 +8,20 @@ function AboutUs() {
         <h1 className="about-title">
           Envolva-se com Elegância: Bolsas Artesanais da Pontynhos de Amor
         </h1>
-        <img
-          className="about-img"
-          src="/images/bolsas.png"
-          alt="Mulher loira segurando uma bolsa"
-        />
+        <div className="about-container-images">
+          <img
+            className="about-img"
+            src="/images/bolsas.png"
+            alt="Mulher loira segurando uma bolsa"
+          />
+          <img
+            className="about-img-secundary"
+            src="/images/bolsa-salmao.png"
+            alt="Bolsa salmão"
+          />
+        </div>
       </div>
+
       <section className="section-container">
         <div className="section-div">
           <h2 className="section-title">

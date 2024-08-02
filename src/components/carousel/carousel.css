@@ -3,3 +3,25 @@
     height: 240px;
     object-fit: cover;
 }
+
+
+@media screen and (min-width: 736px) {
+
+    .swiper {
+        width: 100%;
+        height: 600px;
+        padding: 0 0 6.25rem 0;
+        background: #9e4d3d;
+    }
+
+    .carousel .carousel-content {
+        width: 100%;
+        height: 600px;
+    }
+
+    .image-size {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

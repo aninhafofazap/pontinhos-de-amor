@@ -10,6 +10,14 @@ export const SwiperCarousel = () => {
     <Swiper
       spaceBetween={45}
       slidesPerView={1}
+      autoplay={{
+        delay: 1,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+        stopOnLastSlide: false,
+        waitForTransition: true,
+      }}
+      loop={true}
       navigation={false}
       modules={[Navigation]}
     >

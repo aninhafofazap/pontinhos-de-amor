@@ -40,12 +40,29 @@ function Nav() {
       <div
         className={`navbar-overlay ${menuOpen ? "open" : ""}`}
         onClick={() => setMenuOpen(false)}
-      ></div>
+      />
       <div className={`navbar-menu ${menuOpen ? "open" : ""}`}>
         <Link href="/">Home</Link>
         <Link href="/about-us">Sobre nós</Link>
         <Link href="/faq">FAQs</Link>
       </div>
+
+      <div className="navbar-desktop">
+        <ul>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about-us">Sobre Nós</Link>
+          </li>
+          <li>
+            <Link href="/faq">FAQs</Link>
+          </li>
+        </ul>
+      </div>
+
+      <div className="navbar-container-blank" />
+
       {menuOpen && (
         <button onClick={() => blockNav()} className="navbar-button-close">
           <Close className="icon" />

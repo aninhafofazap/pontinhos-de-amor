@@ -1,0 +1,117 @@
+.best-sellers {}
+
+.subtitle-sellers {
+    color: #121212;
+    font-family: var(--titles-subtitles);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 100px;
+}
+
+.col-sellers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bags-sellers {
+    margin: 10px;
+}
+
+.bags-img {
+    width: 165px;
+    height: 240px;
+    position: relative;
+}
+
+.bags-img img {
+    object-fit: cover;
+    width: 165px;
+    height: 240px;
+}
+
+.cart {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: white;
+}
+
+.bags-sellers-description {
+    font-size: 16px;
+    font-family: var(--titles-subtitles);
+    font-weight: 700;
+    color: #121212;
+}
+
+.bags-sellers-value {
+    font-size: 12px;
+    font-family: var(--titles-subtitles);
+    font-weight: 400;
+    color: #121212;
+}
+
+.bags-sellers-amount {
+    font-size: 12px;
+    font-family: var(--main);
+    font-weight: 500;
+    color: #121212;
+}
+
+.bags-sellers-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bags-sellers-button {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (min-width: 736px) {
+    .best-sellers {
+        width: 100%;
+        padding-bottom: 8rem;
+    }
+
+    .best-sellers .best-sellers-wrapper {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .best-sellers .best-sellers-wrapper .subtitle-sellers {
+        padding: 5.375rem 0.5rem 4.25rem 0.5rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .best-sellers .best-sellers-wrapper .col-sellers {
+        display: grid;
+        gap: 1rem;
+        justify-content: space-around;
+        grid-template-columns: repeat(auto-fit, 18.8125rem);
+    }
+
+    .best-sellers .best-sellers-wrapper .col-sellers .bags-sellers {
+        background: transparent;
+    }
+
+    .best-sellers .best-sellers-wrapper .col-sellers .bags-sellers .bags-img {
+
+        max-width: 18.8125rem;
+        width: 100%;
+        height: 480px;
+        margin: 0;
+        grid-column: 2fr;
+        position: relative;
+    }
+
+    .best-sellers .best-sellers-wrapper .col-sellers .bags-sellers .bags-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .best-sellers .best-sellers-wrapper .col-sellers .bags-sellers .bags-sellers-container .bags-sellers-description {}
+}

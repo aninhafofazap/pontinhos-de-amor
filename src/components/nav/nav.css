@@ -16,7 +16,7 @@
 .navbar-title {
     font-size: 20px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 0 40px;
     line-height: 25px;
     font-family: var(--titles-subtitles);
@@ -25,20 +25,19 @@
 .icon {
     height: 24px;
     width: 24px;
-    color: #DFDFEC;
+    color: #dfdfec;
 }
 
 .navbar-menu {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: rgba(158, 77, 61, 1);
     position: fixed;
     top: 0;
     right: 0;
     width: 250px;
-    /* Ajuste a largura conforme necessário */
     height: 100vh;
     z-index: 1000;
     transition: transform 0.3s ease-in-out;
@@ -70,7 +69,7 @@
 .navbar-menu a {
     padding: 15px 0;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -79,8 +78,8 @@
     border: none;
     cursor: pointer;
     z-index: 1001;
-    /* Garante que o botão esteja sobreposto */
 }
+
 
 .navbar-button-close {
     background: none;
@@ -88,9 +87,52 @@
     cursor: pointer;
     position: fixed;
     top: 20px;
-    /* Ajuste conforme necessário */
     right: 20px;
-    /* Ajuste conforme necessário */
     z-index: 1002;
-    /* Garante que o botão esteja sobreposto ao menu */
+}
+
+.navbar-container-blank {
+    display: none;
+}
+
+.navbar .navbar-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 736px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-container-blank {
+        display: block;
+    }
+
+    .navbar .navbar-container .navbar-menu-icon .navbar-button {
+        display: none;
+    }
+
+    .navbar .navbar-desktop {
+        display: block;
+    }
+
+
+    .navbar .navbar-desktop ul {
+        display: flex;
+        justify-content: space-between;
+        max-width: 29.875rem;
+        width: 100%;
+        gap: 2.5rem;
+    }
+
+    .navbar .navbar-desktop ul li {
+        color: #ffffff;
+        transition: 0.3s all;
+    }
+
+    .navbar .navbar-desktop ul li:hover {
+        text-decoration: underline;
+    }
+
 }
