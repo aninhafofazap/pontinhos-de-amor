@@ -82,3 +82,19 @@
     font-weight: 400;
     text-align: center;
 }
+
+@media screen and (min-width: 736px) {
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    .footer-section-infos {
+        flex-direction: column;
+    }
+
+    .footer-section-infos .sections:nth-child(2) {
+        padding: 0;
+    }
+}

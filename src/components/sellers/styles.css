@@ -113,5 +113,25 @@
         height: 100%;
     }
 
-    .best-sellers .best-sellers-wrapper .col-sellers .bags-sellers .bags-sellers-container .bags-sellers-description {}
+    .best-sellers .best-sellers-wrapper .col-sellers .bags-sellers .cart {
+        /* position: absolute; */
+        bottom: 1.25rem;
+        left: 50%;
+        width: 170px;
+        height: 60px;
+        background-color: #FFFFFF;
+        color: rgba(158, 77, 61, 1);
+        display: flex;
+        justify-content: center;
+        border-radius: 0.5rem;
+        align-items: center;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.3s all;
+
+        &:hover {
+            background-color: rgba(158, 77, 61, 1);
+            color: #ffffff;
+        }
+    }
 }

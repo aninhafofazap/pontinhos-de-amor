@@ -1,3 +1,4 @@
+import { IoArrowForward } from "react-icons/io5";
 import "./styles.css";
 
 export const Categories = () => {
@@ -38,6 +39,12 @@ export const Categories = () => {
           </div>
         </div>
         {/* End List */}
+      </div>
+      <div>
+        <div>
+          <IoArrowForward />
+          <a href="/catalog">Ver todos os catálogos</a>
+        </div>
       </div>
     </section>
   );

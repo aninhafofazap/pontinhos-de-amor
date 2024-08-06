@@ -1,3 +1,4 @@
+import { IoArrowForward } from "react-icons/io5";
 import "./styles.css";
 
 import { FaWhatsapp } from "react-icons/fa";
@@ -18,7 +19,7 @@ export const Sellers = () => {
               </button>
             </div>
             <div className="bags-sellers-container">
-              <p className="bags-sellers-description">Casual</p>
+              <p className="bags-sellers-description">Bag Antônia</p>
               <div className="bags-sellers-button">
                 <p className="bags-sellers-value">R$129,99</p>
               </div>
@@ -32,7 +33,7 @@ export const Sellers = () => {
               </button>
             </div>
             <div className="bags-sellers-container">
-              <p className="bags-sellers-description">Casual</p>
+              <p className="bags-sellers-description">Bag Suelimar</p>
               <div className="bags-sellers-button">
                 <p className="bags-sellers-value">R$129,99</p>
               </div>
@@ -46,7 +47,7 @@ export const Sellers = () => {
               </button>
             </div>
             <div className="bags-sellers-container">
-              <p className="bags-sellers-description">Casual</p>
+              <p className="bags-sellers-description">Bag Thatiely</p>
               <div className="bags-sellers-button">
                 <p className="bags-sellers-value">R$129,99</p>
               </div>
@@ -60,12 +61,18 @@ export const Sellers = () => {
               </button>
             </div>
             <div className="bags-sellers-container">
-              <p className="bags-sellers-description">Casual</p>
+              <p className="bags-sellers-description">Bag Ana</p>
               <div className="bags-sellers-button">
                 <p className="bags-sellers-value">R$129,99</p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <IoArrowForward />
+          <a href="/">Ver mais</a>
         </div>
       </div>
     </section>
