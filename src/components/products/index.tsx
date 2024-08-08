@@ -3,7 +3,8 @@
 import { FaWhatsapp } from "react-icons/fa";
 import productsJson from "./index.json";
 import { useState } from "react";
-// import "./sellers.css";
+import "./sellers.css";
+import { IoArrowBack } from "react-icons/io5";
 
 interface IProduct {
   bagsImg: {
@@ -59,6 +60,12 @@ export const MoreProducts = () => {
               </div>
             ))
           )}
+        </div>
+        <div className="back-sellers">
+          <div className="back-sellers-container">
+            <IoArrowBack size={16} />
+            <a href="/">Voltar</a>
+          </div>
         </div>
       </div>
     </section>

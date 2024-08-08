@@ -10,7 +10,7 @@
                     }
                 },
                 "bagsSellersContainer": {
-                    "description": "Bag Antônia",
+                    "description": "Bag Lucia",
                     "button": {
                         "value": "R$129,99"
                     }
@@ -18,7 +18,7 @@
             },
             {
                 "bagsImg": {
-                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_777777-MLB48633503036_122021-O.webp",
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_999572-MLB48633503036_122021-O.webp",
                     "cartButton": {
                         "icon": "FaWhatsapp",
                         "size": 25
@@ -33,7 +33,7 @@
             },
             {
                 "bagsImg": {
-                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_888888-MLB48633503036_122021-O.webp",
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_999572-MLB48633503036_122021-O.webp",
                     "cartButton": {
                         "icon": "FaWhatsapp",
                         "size": 25
@@ -48,7 +48,7 @@
             },
             {
                 "bagsImg": {
-                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_999999-MLB48633503036_122021-O.webp",
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_999572-MLB48633503036_122021-O.webp",
                     "cartButton": {
                         "icon": "FaWhatsapp",
                         "size": 25
