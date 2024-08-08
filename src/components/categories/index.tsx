@@ -1,11 +1,11 @@
 import { IoArrowForward } from "react-icons/io5";
-import "./styles.css";
+import "./categorie.css";
 
 export const Categories = () => {
   return (
     <section className="categories">
       <div className="categories-wrapper">
-        <h2 className="subtitle-category">Catálago</h2>
+        <h2 className="subtitle-category">Catálago de produtos</h2>
 
         {/* List */}
         <div className="col-category">
@@ -40,10 +40,10 @@ export const Categories = () => {
         </div>
         {/* End List */}
       </div>
-      <div>
-        <div>
+      <div className="link-category">
+        <div className="link-container">
           <IoArrowForward />
-          <a href="/catalog">Ver todos os catálogos</a>
+          <a href="/catalog">Ver todo o catálogo</a>
         </div>
       </div>
     </section>

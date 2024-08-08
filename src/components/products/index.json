@@ -1,0 +1,66 @@
+[
+    {
+        "bagsSellers": [
+            {
+                "bagsImg": {
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_999572-MLB48633503036_122021-O.webp",
+                    "cartButton": {
+                        "icon": "FaWhatsapp",
+                        "size": 25
+                    }
+                },
+                "bagsSellersContainer": {
+                    "description": "Bag Antônia",
+                    "button": {
+                        "value": "R$129,99"
+                    }
+                }
+            },
+            {
+                "bagsImg": {
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_777777-MLB48633503036_122021-O.webp",
+                    "cartButton": {
+                        "icon": "FaWhatsapp",
+                        "size": 25
+                    }
+                },
+                "bagsSellersContainer": {
+                    "description": "Bag Beatriz",
+                    "button": {
+                        "value": "R$139,99"
+                    }
+                }
+            },
+            {
+                "bagsImg": {
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_888888-MLB48633503036_122021-O.webp",
+                    "cartButton": {
+                        "icon": "FaWhatsapp",
+                        "size": 25
+                    }
+                },
+                "bagsSellersContainer": {
+                    "description": "Bag Carla",
+                    "button": {
+                        "value": "R$149,99"
+                    }
+                }
+            },
+            {
+                "bagsImg": {
+                    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_999999-MLB48633503036_122021-O.webp",
+                    "cartButton": {
+                        "icon": "FaWhatsapp",
+                        "size": 25
+                    }
+                },
+                "bagsSellersContainer": {
+                    "description": "Bag Daniela",
+                    "button": {
+                        "value": "R$159,99"
+                    }
+                }
+            }
+        ]
+    }
+]

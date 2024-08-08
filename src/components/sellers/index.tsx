@@ -1,5 +1,5 @@
 import { IoArrowForward } from "react-icons/io5";
-import "./styles.css";
+import "./sellers.css";
 
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -7,7 +7,7 @@ export const Sellers = () => {
   return (
     <section className="best-sellers">
       <div className="best-sellers-wrapper">
-        <h2 className="subtitle-sellers">Mais vendidos</h2>
+        <h2 className="subtitle-sellers">Bolsas mais vendidas</h2>
 
         {/* Lista */}
         <div className="col-sellers">
@@ -69,10 +69,10 @@ export const Sellers = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div>
+      <div className="link-sellers">
+        <div className="sellers-container">
           <IoArrowForward />
-          <a href="/">Ver mais</a>
+          <a href="/sellers">Ver mais</a>
         </div>
       </div>
     </section>

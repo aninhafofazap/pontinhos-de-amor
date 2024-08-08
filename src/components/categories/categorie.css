@@ -1,8 +1,4 @@
-.catalogs {
-    background-color: #FFFFFF;
-}
-
-.catalog .subtitle-catalogs {
+.categories .subtitle-category {
     color: #121212;
     font-family: var(--titles-subtitles);
     font-size: 20px;
@@ -10,14 +6,14 @@
     padding: 35px 125px 8px 125px;
 }
 
-.col-catalogs {
+.col-category {
     display: flex;
     flex-wrap: wrap;
 }
 
-.bags-catalogs {
+.bags-category {
     width: 165px;
-    height: 240px;
+    /* height: 240px; */
     margin: 10px;
     position: relative;
 }
@@ -28,7 +24,7 @@
     object-fit: cover;
 }
 
-.description-catalogs {
+.description-category {
     font-size: 16px;
     font-family: var(--titles-subtitles);
     font-weight: 700;
@@ -37,31 +33,57 @@
     justify-content: center;
 }
 
+.link-category {
+    display: flex;
+    justify-content: flex-end;
+    margin: 23px 0;
+    margin-right: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+}
+
+.link-container svg {
+    color: rgba(158, 77, 61, 1);
+}
+
+.link-container a {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: 700;
+    font-family: var(--titles-subtitles);
+}
+
 @media screen and (min-width: 736px) {
-    .catalogs {
+    .categories {
         width: 100%;
         padding-bottom: 1rem;
     }
 
-    .catalogs .catalogs-wrapper {
+    .categories .categories-wrapper {
         max-width: 1280px;
         width: 100%;
         margin: 0 auto;
     }
 
-    .catalogs .catalogs-wrapper .subtitle-catalogs {
+    .categories .categories-wrapper .subtitle-category {
         padding: 5.375rem 0.5rem 4.25rem 0.5rem;
         font-size: 2.5rem;
     }
 
-    .catalogs .catalogs-wrapper .col-catalogs {
+    .categories .categories-wrapper .col-category {
         display: grid;
         gap: 2.5rem;
         justify-content: space-around;
         grid-template-columns: repeat(auto-fit, 275px);
     }
 
-    .catalogs .catalogs-wrapper .col-catalogs .bags-catalogs {
+    .categories .categories-wrapper .col-category .bags-category {
         max-width: 275px;
         width: 100%;
         height: 480px;
@@ -70,12 +92,12 @@
         position: relative;
     }
 
-    .catalogs .catalogs-wrapper .col-catalogs .bags-catalogs .bags-img {
+    .categories .categories-wrapper .col-category .bags-category .bags-img {
         width: 100%;
         height: 100%;
     }
 
-    .catalogs .catalogs-wrapper .col-catalogs .bags-catalogs .description-catalogs {
+    .categories .categories-wrapper .col-category .bags-category .description-category {
         position: absolute;
         bottom: 1.25rem;
         left: 50%;
@@ -96,9 +118,28 @@
         }
     }
 
-
-    .back-catalogs {
-        background-color: red;
+    .link-category {
         display: flex;
+        justify-content: flex-end;
+        margin: 23px 62px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .link-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .link-container svg {
+        color: rgba(158, 77, 61, 1);
+    }
+
+    .link-container a {
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-left: 8px;
+        font-weight: 700;
+        font-family: var(--titles-subtitles);
     }
 }

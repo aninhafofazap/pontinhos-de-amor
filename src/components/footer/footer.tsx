@@ -18,6 +18,7 @@ function Footer() {
           <p>55 999999999</p>
           <p>Petani.info@email.com</p>
         </div>
+
         <div className="sections">
           <h3>Bolsas</h3>
           <p>
@@ -31,8 +32,13 @@ function Footer() {
           </p>
         </div>
         <div className="sections">
-          <h3>Endereço</h3>
-          <p>Brasil Rua 2 Senador Canedo Anapolis Goias 750000</p>
+          <h3>Redes sociais</h3>
+          <p>
+            <a href=" https://www.labzone.com.br/">Instagram</a>
+          </p>
+          <p>
+            <a href=" https://www.labzone.com.br/">Facebook</a>
+          </p>
         </div>
       </div>
       <div className="diretory">

@@ -91,10 +91,10 @@
     }
 
     .footer-section-infos {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .footer-section-infos .sections:nth-child(2) {
+    .footer-section-infos .sections:nth-child(3) {
         padding: 0;
     }
 }

@@ -1,4 +1,9 @@
-.categories .subtitle-category {
+.catalogs {
+    background-color: #FFFFFF;
+    padding-bottom: 4rem;
+}
+
+.catalog .subtitle-catalogs {
     color: #121212;
     font-family: var(--titles-subtitles);
     font-size: 20px;
@@ -6,12 +11,12 @@
     padding: 35px 125px 8px 125px;
 }
 
-.col-category {
+.col-catalogs {
     display: flex;
     flex-wrap: wrap;
 }
 
-.bags-category {
+.bags-catalogs {
     width: 165px;
     height: 240px;
     margin: 10px;
@@ -24,7 +29,7 @@
     object-fit: cover;
 }
 
-.description-category {
+.description-catalogs {
     font-size: 16px;
     font-family: var(--titles-subtitles);
     font-weight: 700;
@@ -33,31 +38,58 @@
     justify-content: center;
 }
 
+.back-catalogs {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 23px 0;
+}
+
+.back-container {
+    display: flex;
+    align-items: center;
+}
+
+.back-container a {
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    font-weight: 700;
+    font-family: var(--titles-subtitles);
+}
+
+.back-container svg {
+    color: rgba(158, 77, 61, 1);
+}
+
+
 @media screen and (min-width: 736px) {
-    .categories {
+    .catalogs {
         width: 100%;
         padding-bottom: 1rem;
     }
 
-    .categories .categories-wrapper {
+    .catalogs .catalogs-wrapper {
         max-width: 1280px;
         width: 100%;
         margin: 0 auto;
     }
 
-    .categories .categories-wrapper .subtitle-category {
+    .catalogs .catalogs-wrapper .subtitle-catalogs {
         padding: 5.375rem 0.5rem 4.25rem 0.5rem;
         font-size: 2.5rem;
     }
 
-    .categories .categories-wrapper .col-category {
+    .catalogs .catalogs-wrapper .col-catalogs {
         display: grid;
         gap: 2.5rem;
         justify-content: space-around;
         grid-template-columns: repeat(auto-fit, 275px);
     }
 
-    .categories .categories-wrapper .col-category .bags-category {
+    .catalogs .catalogs-wrapper .col-catalogs .bags-catalogs {
         max-width: 275px;
         width: 100%;
         height: 480px;
@@ -66,12 +98,12 @@
         position: relative;
     }
 
-    .categories .categories-wrapper .col-category .bags-category .bags-img {
+    .catalogs .catalogs-wrapper .col-catalogs .bags-catalogs .bags-img {
         width: 100%;
         height: 100%;
     }
 
-    .categories .categories-wrapper .col-category .bags-category .description-category {
+    .catalogs .catalogs-wrapper .col-catalogs .bags-catalogs .description-catalogs {
         position: absolute;
         bottom: 1.25rem;
         left: 50%;
@@ -91,4 +123,33 @@
             color: #ffffff;
         }
     }
+
+
+    .back-catalogs {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        cursor: pointer;
+        margin: 23px 0;
+    }
+
+    .back-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .back-container a {
+        margin-left: 8px;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-left: 8px;
+        font-weight: 700;
+        font-family: var(--titles-subtitles);
+    }
+
+    .back-container svg {
+        color: rgba(158, 77, 61, 1);
+    }
+
+
 }

@@ -1,12 +1,12 @@
-import { Catalog } from "@/src/components/catalogFull";
 import Footer from "@/src/components/footer/footer";
-import Nav from "@/src/components/nav/nav";
+import { MoreProducts } from "@/src/components/products";
+import { Nav } from "react-bootstrap";
 
 export default function Page() {
   return (
     <>
       <Nav />
-      <Catalog />
+      <MoreProducts />
       <Footer />
     </>
   );

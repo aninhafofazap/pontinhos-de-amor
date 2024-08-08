@@ -62,10 +62,10 @@ export const Catalog = () => {
         </div>
 
         <div className="back-catalogs">
-          <div>
-            <IoArrowBack />
+          <div className="back-container">
+            <IoArrowBack size={16} />
+            <a href="/">Voltar</a>
           </div>
-          <a href="/">Voltar</a>
         </div>
       </div>
     </section>
