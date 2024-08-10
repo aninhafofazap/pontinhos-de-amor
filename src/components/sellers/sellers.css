@@ -8,7 +8,7 @@
     font-family: var(--titles-subtitles);
     font-size: 20px;
     font-weight: 700;
-    padding: 30px 100px;
+    padding: 10px 65px;
 }
 
 .col-sellers {
@@ -96,6 +96,8 @@
     font-weight: 700;
     font-family: var(--titles-subtitles);
 }
+
+
 
 @media screen and (min-width: 736px) {
     .best-sellers {

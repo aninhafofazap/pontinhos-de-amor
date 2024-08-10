@@ -22,7 +22,7 @@ function Footer() {
         <div className="sections">
           <h3>Bolsas</h3>
           <p>
-            <a href="/">Produtos</a>
+            <a href="/sellers">Produtos</a>
           </p>
         </div>
         <div className="sections">
