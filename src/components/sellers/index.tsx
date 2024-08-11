@@ -68,11 +68,11 @@ export const Sellers = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="link-sellers">
-        <div className="sellers-container">
-          <IoArrowForward />
-          <a href="/sellers">Ver mais</a>
+        <div className="link-sellers">
+          <div className="sellers-container">
+            <IoArrowForward />
+            <a href="/sellers">Ver mais</a>
+          </div>
         </div>
       </div>
     </section>

@@ -75,9 +75,8 @@
 .link-sellers {
     display: flex;
     justify-content: flex-end;
-    margin-right: 16px;
     text-decoration: underline;
-    cursor: pointer;
+    padding: 1.5rem 1rem;
 }
 
 .sellers-container {
@@ -165,13 +164,10 @@
         }
     }
 
-
     .link-sellers {
         display: flex;
         justify-content: flex-end;
-        margin: 23px 62px;
         text-decoration: underline;
-        cursor: pointer;
     }
 
     .sellers-container {
@@ -190,8 +186,6 @@
         font-weight: 700;
         font-family: var(--titles-subtitles);
     }
-
-
 
     .back-sellers {
         display: flex;

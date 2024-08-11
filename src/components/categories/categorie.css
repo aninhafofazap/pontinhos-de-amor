@@ -36,10 +36,8 @@
 .link-category {
     display: flex;
     justify-content: flex-end;
-    margin: 23px 0;
-    margin-right: 30px;
+    padding: 1.5rem 1rem;
     text-decoration: underline;
-    cursor: pointer;
 }
 
 .link-container {
@@ -54,7 +52,6 @@
 .link-container a {
     text-transform: uppercase;
     font-size: 12px;
-    margin-left: 8px;
     font-weight: 700;
     font-family: var(--titles-subtitles);
 }
@@ -105,7 +102,6 @@
         height: 60px;
         background-color: #FFFFFF;
         display: flex;
-        /* justify-content: center; */
         border-radius: 0.5rem;
         align-items: center;
         transform: translate(-50%, -50%);
@@ -121,9 +117,7 @@
     .link-category {
         display: flex;
         justify-content: flex-end;
-        margin: 23px 62px;
         text-decoration: underline;
-        cursor: pointer;
     }
 
     .link-container {

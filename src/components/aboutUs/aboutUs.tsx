@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./aboutUs.css";
+import Image from "next/image";
 
 function AboutUs() {
   return (
@@ -9,15 +10,19 @@ function AboutUs() {
           Envolva-se com Elegância: Bolsas Artesanais da Pontynhos de Amor
         </h1>
         <div className="about-container-images">
-          <img
+          <Image
             className="about-img"
             src="/images/bolsas.png"
             alt="Mulher loira segurando uma bolsa"
+            width={100}
+            height={100}
           />
-          <img
+          <Image
             className="about-img-secundary"
             src="/images/bolsa-salmao.png"
             alt="Bolsa salmão"
+            width={100}
+            height={100}
           />
         </div>
       </div>
