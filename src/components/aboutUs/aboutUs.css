@@ -215,22 +215,15 @@
 
     .about-container {}
 
-    .about-title {
-
-        margin: 58px 120px;
-    }
+    .about-title {}
 
     .about-container-images {
-        display: flex;
-        background-color: red;
+        display: block;
     }
 
-    .about-img {}
+    .about-container .about-container-images .about-img {}
 
     .about-img-secundary {
         display: block;
-        width: 100%;
-        height: 150px;
-
     }
 }

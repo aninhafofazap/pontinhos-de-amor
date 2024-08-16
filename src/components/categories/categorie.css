@@ -1,4 +1,4 @@
-.categories .subtitle-category {
+.categories .categories-subtitle {
     color: #121212;
     font-family: var(--titles-subtitles);
     font-size: 20px;
@@ -6,12 +6,13 @@
     padding: 35px 65px 8px;
 }
 
-.col-category {
+
+.categories-col {
     display: flex;
     flex-wrap: wrap;
 }
 
-.bags-category {
+.categories-col-bags {
     width: 165px;
     /* height: 240px; */
     margin: 10px;
@@ -68,19 +69,19 @@
         margin: 0 auto;
     }
 
-    .categories .categories-wrapper .subtitle-category {
+    .categories .categories-wrapper .categories-subtitle {
         padding: 5.375rem 0.5rem 4.25rem 0.5rem;
         font-size: 2.5rem;
     }
 
-    .categories .categories-wrapper .col-category {
+    .categories .categories-wrapper .categories-col {
         display: grid;
         gap: 2.5rem;
         justify-content: space-around;
         grid-template-columns: repeat(auto-fit, 275px);
     }
 
-    .categories .categories-wrapper .col-category .bags-category {
+    .categories .categories-wrapper .categories-col .categories-col-bags {
         max-width: 275px;
         width: 100%;
         height: 480px;
@@ -89,12 +90,12 @@
         position: relative;
     }
 
-    .categories .categories-wrapper .col-category .bags-category .bags-img {
+    .categories .categories-wrapper .categories-col .categories-col-bags .bags-img {
         width: 100%;
         height: 100%;
     }
 
-    .categories .categories-wrapper .col-category .bags-category .description-category {
+    .categories .categories-wrapper .categories-col .categories-col-bags .description-category {
         position: absolute;
         bottom: 1.25rem;
         left: 50%;
@@ -114,7 +115,7 @@
         }
     }
 
-    .link-category {
+    .categories-link {
         display: flex;
         justify-content: flex-end;
         text-decoration: underline;
@@ -123,6 +124,7 @@
     .link-container {
         display: flex;
         align-items: center;
+        padding: 1.5rem 3rem;
     }
 
     .link-container svg {
