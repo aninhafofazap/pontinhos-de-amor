@@ -42,7 +42,7 @@ function Nav() {
         onClick={() => setMenuOpen(false)}
       />
       <div className={`navbar-menu ${menuOpen ? "open" : ""}`}>
-        <Link href="/">Home</Link>
+        <Link href="/">Início</Link>
         <Link href="/about-us">Sobre nós</Link>
         <Link href="/faq">FAQs</Link>
       </div>
@@ -50,7 +50,7 @@ function Nav() {
       <div className="navbar-desktop">
         <ul>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">Início</Link>
           </li>
           <li>
             <Link href="/about-us">Sobre Nós</Link>

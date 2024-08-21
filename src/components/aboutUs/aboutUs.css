@@ -132,14 +132,14 @@
     transition: 0.3s all;
 }
 
-.setas {
+.arrow {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.setas img {
+.arrow img {
     margin-right: 16px;
 }
 
@@ -213,7 +213,10 @@
 
 @media screen and (min-width: 736px) {
 
-    .about-container {}
+    .about-container {
+  
+    
+    }
 
     .about-title {}
 
@@ -221,7 +224,10 @@
         display: block;
     }
 
-    .about-container .about-container-images .about-img {}
+    .about-container .about-container-images .about-img {
+        width:  740px;
+        height: 500px;
+    }
 
     .about-img-secundary {
         display: block;

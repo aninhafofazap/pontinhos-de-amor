@@ -16,6 +16,8 @@ function AboutUs() {
             alt="Mulher loira segurando uma bolsa"
             width={100}
             height={100}
+            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           <Image
             className="about-img-secundary"
@@ -23,6 +25,8 @@ function AboutUs() {
             alt="Bolsa salmão"
             width={100}
             height={100}
+            quality={100}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </div>
@@ -127,7 +131,7 @@ function AboutUs() {
             </button>
             <img src="/images/bolsa-branca.png" />
           </div>
-          <div className="setas">
+          <div className="arrow">
             <img src="/images/seta.png" alt="Seta para a esquerda" />
             <img src="/images/seta2.png" alt="Seta para a direita" />
           </div>

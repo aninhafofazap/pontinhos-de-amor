@@ -19,7 +19,7 @@ function Footer() {
         <div className="footer-section-links">
           <div className="sections">
             <h3>Contato</h3>
-            <a href="tel:+55999999999">(55) 99999-9999</a>
+            <a href="tel:+55999999999">(62) 992216259</a>
             <a href="mailto:example@email.com">example@email.com</a>
           </div>
 
@@ -38,7 +38,9 @@ function Footer() {
           <div className="sections">
             <h3>Redes sociais</h3>
             <p>
-              <a href=" https://www.labzone.com.br/">Instagram</a>
+              <a href="https://www.instagram.com/pontynhosdeamor?igsh=Mmk1YjA3c2RqeDNt">
+                Instagram
+              </a>
             </p>
             <p>
               <a href=" https://www.labzone.com.br/">Facebook</a>

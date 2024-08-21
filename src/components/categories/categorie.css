@@ -34,7 +34,7 @@
     justify-content: center;
 }
 
-.link-category {
+.categories-link {
     display: flex;
     justify-content: flex-end;
     padding: 1.5rem 1rem;

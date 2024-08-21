@@ -70,6 +70,25 @@
 .bags-sellers-button {
     display: flex;
     gap: 10px;
+
+}
+
+.best-sellers .best-sellers-wrapper .col-sellers .bags-sellers .cart{
+    bottom: 5px;
+    border-radius: 0.5rem;
+    height: 30px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: rgba(158, 77, 61, 1);
+    transition: 0.3s all;
+       
+&:hover{
+    background-color:  rgba(158, 77, 61, 1);
+    color: #FFFFFF;
+}
+
 }
 
 .link-sellers {
